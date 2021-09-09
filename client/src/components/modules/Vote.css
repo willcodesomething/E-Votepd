@@ -1,0 +1,26 @@
+.Vote-container {
+  border: var(--darkgrey) 1px solid;
+  border-radius: var(--xs);
+  margin-top: var(--m);
+ 
+}
+
+.Vote-container:first-of-type {
+  margin-top: var(--l);
+  background-color: #00a99e;
+ 
+}
+
+
+.Vote-story {
+  padding: var(--m) var(--l);
+
+
+}
+
+.Vote-storyContent {
+  font-size: 40px;
+  margin: var(--s) 0 0;
+ 
+ 
+}

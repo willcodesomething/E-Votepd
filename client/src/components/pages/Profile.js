@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../../utilities.css";
-import "./Profile.css";
+import"./Profile.css";
+
 
 class Profile extends Component {
   constructor(props) {
@@ -62,6 +63,7 @@ class Profile extends Component {
           </div>
           
         </div>
+        
       </>
     );
   }
