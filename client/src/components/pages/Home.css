@@ -33,12 +33,17 @@
     
   }
 
-
+  
 
   .img1{background-image: url("../../public/cand1.jpg");}
   .img2{background-image: url("../../public/cand2.jpg");}
   .img3{background-image: url("../../public/cand3.jpg");}
 
+.Home-subContainer:hover {
+  color: rgb(123, 66, 228);
+  font-size: 17px;
+  
+}
 
 
   
@@ -46,6 +51,7 @@
     font-size: 1.8em;
     font-weight:500;
   }
+  
   
   .Home-line {
     border-color: var(--grey);
@@ -85,4 +91,7 @@
     font-size: 1.5em;
     margin: var(--m) var(--s);
   }
+
+ 
+
   

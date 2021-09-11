@@ -27,7 +27,7 @@ class Home extends Component {
     return (
 
       <>
-        <div className="u-flex">
+        <div className="u-flex ">
 
 
           <div className="Home-subContainer">
@@ -39,7 +39,7 @@ class Home extends Component {
             >
               <div className="Home-avatar img1" />
             </div>
-            <h1 className="Home-name u-textCenter">Lugia</h1>
+            <h1 className="Home-name u-textCenter ">Lugia</h1>
             <hr className="Home-line" />
 
             <div className="u-flex">
