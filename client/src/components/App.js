@@ -4,6 +4,8 @@ import NavBar from "./modules/NavBar.js";
 import Profile from "./pages/Profile.js";
 import Home from "./pages/Home.js";
 
+import SideBar from "./modules/SideBar.js";
+
 // To use styles, import the necessary CSS files
 import "../utilities.css";
 import "./App.css";
@@ -29,6 +31,7 @@ class App extends Component {
       // up in the DOM tree
       <>
         <NavBar />
+        <SideBar/>
         <div className="App-container">
           <Router>
             <Profile path="/profile/" />

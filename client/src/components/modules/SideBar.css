@@ -1,0 +1,11 @@
+.SideBar-container {
+    padding: var(--s) var(--m);
+    background-color:grey;
+    display: block;
+    height: 900px;
+    width: 2cm;
+    position: fixed;
+    place-content: left;
+
+  }
+ 
