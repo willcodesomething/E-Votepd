@@ -16,8 +16,12 @@ class SideBar extends Component {
   render() {
     return (
      <div className="SideBar-container">
-         this will be SideBar
-
+         <div className="SideBar-sub-container">
+         <div className="SideBar-sub-sub-container"><p>SideBar</p></div>
+         <div className="SideBar-sub-sub-container"><p>SideBar</p></div>
+         <div className="SideBar-sub-sub-container"><p>SideBar</p></div>
+         </div>
+        
      </div>
     );
   }

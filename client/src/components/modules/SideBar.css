@@ -1,11 +1,38 @@
 .SideBar-container {
-    padding: var(--s) var(--m);
-    background-color:grey;
+  padding: var(--s) var(--m);
+    background-color:rgb(83, 154, 202);
     display: block;
-    height: 900px;
+    height: 700px;
     width: 2cm;
     position: fixed;
-    place-content: left;
+    left: 0px;
+  
+    border:solid 1px white;
 
   }
+ .SideBar-sub-container{
+   
+   flex-direction: column;
+   
+  color:rgb(250, 250, 250);
+  font-weight: bold;
+  border-radius: 20%;
+  position: center;
+  display: grid;
+  grid-template-columns: 10px;
+  
  
+
+ }
+ .SideBar-sub-sub-container{
+   
+  
+  
+    
+
+    
+
+ }
+ .SideBar-sub-sub-container:hover{
+   color: #050505;
+ }
