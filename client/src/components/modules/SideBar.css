@@ -4,7 +4,7 @@
     display: block;
     height: 700px;
     width: 2cm;
-    position: fixed;
+    position:absolute;
     left: 0px;
   
     border:solid 1px white;
@@ -21,7 +21,6 @@
   display: grid;
   grid-template-columns: 10px;
   
- 
 
  }
  .SideBar-sub-sub-container{
