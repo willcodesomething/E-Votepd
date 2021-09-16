@@ -18,7 +18,7 @@ class Voting_Portal extends Component {
 
   componentDidMount() {}
 
-  
+
   incrementVoteCand1 = () => {
     this.setState({
       VoteCand1: this.state.VoteCand1 + 1,
@@ -60,7 +60,7 @@ class Voting_Portal extends Component {
             >
               <div className="Voting_Portal-avatar img1" />
             </div>
-            <h1 className="Voting_Portal-name u-textCenter ">Lugia</h1>
+            <h1 className="Voting_Portal-name u-textCenter ">Tony Stark</h1>
             <hr className="Voting_Portal-line" />
 
             <div className="u-flex">
