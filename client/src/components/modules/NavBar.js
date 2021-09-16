@@ -21,8 +21,12 @@ class NavBar extends Component {
           <Link to="/" className="NavBar-link">
             Home
           </Link>
+
           <Link to="/profile/" className="NavBar-link">
             Profile
+          </Link>
+          <Link to="/Voting_Portal/" className="NavBar-link">
+            Voting-Portal
           </Link>
         </div>
       </nav>

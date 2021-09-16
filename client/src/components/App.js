@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 import NavBar from "./modules/NavBar.js";
 import Profile from "./pages/Profile.js";
 import Home from "./pages/Home.js";
+import Voting_Portal from "./pages/Voting_Portal.js";
 
 import SideBar from "./modules/SideBar.js";
 
@@ -35,7 +36,9 @@ class App extends Component {
         <div className="App-container">
           <Router>
             <Profile path="/profile/" />
+            <Voting_Portal path="/Voting_Portal/" />
             <Home default />
+            
           </Router>
         </div>
       </>
